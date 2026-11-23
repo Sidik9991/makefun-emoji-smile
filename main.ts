@@ -85,6 +85,35 @@ const CANDIDATES: Candidate[] = [
       "from a stranger it reads flirtatious or over-familiar, which is " +
       "exactly what the fifth criterion rules out.",
   },
+  // --- Second pass: three new challengers, re-judged against the brief. ---
+  {
+    name: "heart hands",
+    emoji: "\u{1FAF6}",
+    scores: [2, 2, 1, 2, 1],
+    why:
+      "Hands offering a heart: the warmth is aimed at the stranger and it " +
+      "feels freshly chosen, but it is a young emoji that still renders " +
+      "inconsistently on older phones, and a heart from a stranger carries " +
+      "the same small intimacy question as the yellow heart.",
+  },
+  {
+    name: "relieved face",
+    emoji: "\u{1F60C}",
+    scores: [1, 1, 2, 1, 2],
+    why:
+      "Calm and gentle and safe from anyone, but relief is an inward feeling: " +
+      "it does not reach out to warm the stranger, and its soft closed-eye " +
+      "smile is too muted to spark a smile back at first glance.",
+  },
+  {
+    name: "face holding back tears",
+    emoji: "\u{1F979}",
+    scores: [1, 1, 1, 2, 2],
+    why:
+      "Tender and clearly chosen, but bittersweet: at first glance the tears " +
+      "read as sadness as easily as being moved, so a stranger needs context " +
+      "to know whether to smile or to worry.",
+  },
 ];
 
 function total(c: Candidate): number {
